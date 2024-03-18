@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    margin: auto;
+    margin-top: 30px;
+    background-color:white;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+li {
+    margin-right: 50px;
+}
+.logo {
+    padding: 10px 0;
+}
+header .phoneNumber {
+    display: flex;
+    align-items: center;
+    color: #A52424;
+}
+.sectionOne {
+    margin: auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+h1 {
+    font-size: 72px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.sectionOne button {
+    width: 335px;
+    height: 60px;
+    background-color:white;
+    border: 1px solid #A52424;
+    color: #A52424;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sectionTwo {
+    margin: auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.sectionTwoLeft {
+    margin-right: 160px;   
+}
+.sectionTwoLeft h2 {
+    margin: 0 0 45px 0;
+    font-size: 64px;
+}
+.sectionTwoLeft p {
+    margin: 50px 0 0 100px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #A52424;
+}
+.bottomLayerLeft {
+    width: 343px;
+    height: 560px;
+    box-shadow: 0px 5px 8px lightgray;
+}
+.sectionTwoLeft img {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.sectionTwoRight h4 {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #A52424;
+}
+.sectionTwoRight p {
+    padding-right: 30px;
+    font-size: 18px;
+}
+.bottomLayerRight {
+    width: 567px;
+    height: 330px;
+    margin-left: 100px;
+    box-shadow: 0px 5px 8px lightgray;
+}
+.sectionTwoRight img {
+    margin-top: 30px;
+    margin-left: -100px;
+}
+.sectionThree {
+    margin: auto;
+    width: 1170px;
+    margin-bottom: 150px;
+}
+.sectionThree h2 {
+    font-size: 64px;
+    margin: 50px 0;
+}
+.cardsPortfolio {
+    display: flex;
+    justify-content: space-between;
+}
+.cardPortfolio {
+    width: 375px;   
+}
+.cardPortfolio h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.cardPortfolio p {
+    margin: 0;
+}
+.cardPortfolio button {
+    width: 202px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #A52424;
+    color: #A52424;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sectionFour {
+    margin: auto;
+    width: 1170px;
+    margin-bottom: 150px;
+}
+.sectionFour h2 {
+    font-size: 64px;
+    margin-bottom: 153px;
+}
+.cardsPrice {
+    display: flex;
+    justify-content: space-around;
+}
+.cardPrice {
+    width: 509px;
+    height: 467px;
+    text-align: center;
+    box-shadow: 0px 5px 8px lightgray;
+}
+.cardPrice img {
+    margin-top: -100px;
+}
+.cardPrice h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #A52424;
+}
+.cardPrice table {
+    margin: 18px auto;
+    text-align: justify;
+    width: 430px;
+    font-size: 18px;
+}
+.cardPrice table tr th {
+    text-align: end;
+}
+.cardPrice table tr td {
+    padding: 5px 0;
+}
+.pricePhoto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+    color:#A52424;
+}
+.priceVideo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #A52424;
+}
+.cardPrice button {
+    width: 249px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sectionFive {
+    margin: auto;
+    width: 1170px;
+    margin-bottom: 150px;
+}
+.sectionFive h2 {
+    font-size: 64px;
+}
+.contactForm {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.sectionFiveLeftPhotoOne {
+    margin-top: 45px;
+}
+.sectionFiveLeftPhotoTwo {
+    margin-left: -50px;
+    margin-right: 100px;
+}
+.inputName {
+    width: 455px;
+    height: 60px;
+    border:1px solid lightgray;
+    font-size: 18px;
+    color: lightgray;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.inputEmail {
+    width: 455px;
+    height: 60px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    color: lightgray;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+#message {
+    width: 455px;
+    height: 220px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    color: lightgray;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.inputSubmit {
+    width: 480px;
+    height: 60px;
+    background-color: white;
+    color: #A52424;
+    border: none;
+    border:1px solid #A52424;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+footer {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid lightgrey;
+}
+.wrapFooter {
+    margin: auto;
+    width: 1170px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.facebook {
+    margin: 5px 54px;
+}
+.phoneNumberFooter {
+    font-size: 22px;
+    font-weight: 600;
+    color: #A52424;
+}
